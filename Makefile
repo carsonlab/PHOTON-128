@@ -4,7 +4,7 @@ FLAGS = -Wall
 PHONY: all
 
 all:
-	$(CC) $(FLAGS) photon.c main.c -o PRESENT
+	$(CC) $(FLAGS) photon.c main.c -o PHOTON
 
 clean:
-	rm -rf *.o PRESENT
+	rm -rf *.o PHOTON
